@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Layout principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+/* Perfil (lado esquerdo) */
+.perfil {
+    width: 300px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.perfil img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.perfil h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.perfil p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* Redes sociais */
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+/* Conteúdo principal */
+.conteudo {
+    flex: 1;
+    padding: 40px;
+}
+
+.conteudo section {
+    margin-bottom: 50px;
+}
+
+.conteudo h2 {
+    margin-bottom: 15px;
+    color: #00bfff;
+}
+
+.conteudo p {
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* Projetos */
+.projeto {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.projeto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.projeto2 img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.projeto3 img {
+    width: 25%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Botões links de projeto */
+.links-projeto {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.links-projeto a {
+    text-decoration: none;
+    background-color: #00bfff;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.links-projeto a:hover {
+    background-color: #0095d1;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Certificados */
+.certificados {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.certificado {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.certificado:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.4);
+}
+
+.certificado img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.certificado p {
+    margin-top: 10px;
+    font-size: 14px;
+}
