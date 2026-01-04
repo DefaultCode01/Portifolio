@@ -173,3 +173,40 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
+
+/* Tabelas */
+.tabela-container {
+    overflow-x: auto; /* rolagem horizontal em telas pequenas */
+    margin-top: 15px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #444;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #00bfff;
+    color: #000;
+}
+
+.tabela td code {
+    background-color: #1e1e1e;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #00ffae;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+}
+
+/* Espaçamento entre seções */
+section {
+    margin-bottom: 50px;
+}
