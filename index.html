@@ -2,147 +2,603 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Matheus Gomes | Portfólio</title>
-    <meta name="description" content="Portfólio de Matheus Gomes, Desenvolvedor Júnior de Games e Software">
-
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
 
-<header class="topo">
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#certificados">Certificados</a>
-        <a href="#contato">Contato</a>
-    </nav>
-</header>
+        <!-- LADO ESQUERDO -->
+        <aside class="perfil">
+            <img src="Imagens/eu.jpg" alt="Foto de perfil">
 
-<div class="container">
+            <h1>Matheus Da Silva Gomes</h1>
+            <p>Desenvolvedor Júnior de Games</p>
 
-    <!-- PERFIL -->
-    <aside class="perfil">
-        <img src="Imagens/eu.jpg" alt="Foto de Matheus Gomes">
-
-        <h1>Matheus Gomes</h1>
-        <p>Desenvolvedor Júnior de Games</p>
-
-        <div class="redes">
-            <a href="https://www.instagram.com/theus.sgomes" target="_blank">
-                <img src="Imagens/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://www.linkedin.com/in/matheus-da-silva-gomes-baa89a23b" target="_blank">
-                <img src="Imagens/linkedin.png" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/DefaultCode01" target="_blank">
-                <img src="Imagens/github.png" alt="GitHub">
-            </a>
-        </div>
-    </aside>
-
-    <!-- CONTEÚDO -->
-    <main class="conteudo">
-
-        <!-- SOBRE -->
-        <section id="sobre">
-            <h2>👋 Sobre mim</h2>
-            <p>
-                Sou desenvolvedor júnior focado em jogos e software, com experiência em
-                C#, Unity, .NET e fundamentos de programação orientada a objetos.
-                Estou em constante aprendizado e busco minha primeira oportunidade profissional na área.
-            </p>
-        </section>
-
-        <!-- SKILLS -->
-        <section id="skills">
-            <h2>🛠️ Skills</h2>
-
-            <div class="skills">
-                <span>C#</span>
-                <span>.NET</span>
-                <span>Unity</span>
-                <span>POO</span>
-                <span>Git & GitHub</span>
-                <span>SQL</span>
-                <span>HTML</span>
-                <span>CSS</span>
+            <div class="redes">
+                <a href="https://www.instagram.com/theus.sgomes" target="_blank" rel="noopener noreferrer">
+                    <img src="Imagens/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-da-silva-gomes-baa89a23b" target="_blank" rel="noopener noreferrer">
+                    <img src="Imagens/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/DefaultCode01" target="_blank" rel="noopener noreferrer">
+                    <img src="Imagens/github.png" alt="GitHub">
+                </a>
             </div>
-        </section>
+        </aside>
 
-        <!-- PROJETOS -->
-        <section id="projetos">
-            <h2>🎮 Projetos</h2>
+        <!-- LADO DIREITO -->
+        <main class="conteudo">
 
-            <div class="grid">
+            <!-- Projeto Dungeon Hunter -->
+            <section>
+                <div class="projeto">
+                    <img src="Imagens/gamePrint.png" alt="Dungeon Hunter - Game 2D em Unity">
 
-                <div class="card">
-                    <img src="Imagens/gamePrint.png" alt="Dungeon Hunter">
                     <h3>Dungeon Hunter</h3>
-                    <p>RPG 2D top-down em Unity, com exploração, NPCs e sistemas básicos.</p>
+
+                    <p>
+                        RPG 2D top-down em desenvolvimento, com foco em exploração,
+                        interação com NPCs e sistemas básicos de gameplay.
+                    </p>
 
                     <ul>
                         <li><strong>Engine:</strong> Unity</li>
                         <li><strong>Linguagem:</strong> C#</li>
-                        <li><strong>Status:</strong> Em desenvolvimento</li>
+                        <li><strong>Status:</strong> Em desenvolvimento (fase inicial)</li>
                     </ul>
 
                     <div class="links-projeto">
-                        <a href="https://github.com/DefaultCode01/Dungeon-Hunter" target="_blank">GitHub</a>
-                        <a href="https://github.com/DefaultCode01/Dungeon-Hunter/releases/tag/v1.1.2" target="_blank">Build</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="Imagens/ecotech.png" alt="EcoTech">
-                    <h3>EcoTech</h3>
-                    <p>Projeto educacional sobre sustentabilidade e tecnologia.</p>
-
-                    <div class="links-projeto">
-                        <a href="https://sites.google.com/view/projeto-ecotech/p%C3%A1gina-inicial" target="_blank">
-                            Acessar
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="Imagens/dio.jpg" alt="Sistema de Hospedagem">
-                    <h3>Sistema de Hospedagem (.NET)</h3>
-                    <p>Sistema em C# com foco em POO e regras de negócio.</p>
-
-                    <div class="links-projeto">
-                        <a href="https://github.com/DefaultCode01/trilha-net-explorando-desafio" target="_blank">
+                        <a href="https://github.com/DefaultCode01/Dungeon-Hunter" target="_blank">
                             GitHub
                         </a>
+                        <a href="https://github.com/DefaultCode01/Dungeon-Hunter/releases/tag/v1.1.2" target="_blank">
+                            Build Jogável
+                        </a>
                     </div>
                 </div>
+            </section>
 
-            </div>
-        </section>
+            <!-- Detalhes do Dungeon Hunter -->
+            <section>
+                <h2>📘 Sobre o Projeto</h2>
 
-        <!-- CERTIFICADOS -->
-        <section id="certificados">
-            <h2>📜 Certificados</h2>
+                <h3>🎮 Funcionalidades</h3>
+                <ul>
+                    <li>Exploração de mapa e interação com NPCs</li>
+                    <li>Sistema básico de crafting</li>
+                    <li>Sistema de diálogo</li>
+                    <li>IA simples para NPCs</li>
+                    <li>Menu inicial funcional</li>
+                </ul>
 
-            <div class="certificados">
-                <!-- pode manter todos os seus, não precisa mudar -->
-                <!-- estrutura continua igual -->
-            </div>
-        </section>
+                <h3>🎛️ Controles</h3>
+                <ul>
+                    <li>WASD / Setas — Movimentação</li>
+                    <li>Espaço — Interação / Ação</li>
+                    <li>ESC — Menu</li>
+                </ul>
 
-        <!-- CONTATO -->
-        <section id="contato">
-            <h2>📬 Contato</h2>
+                <h3>🛠️ Tecnologias</h3>
+                <ul>
+                    <li>Unity</li>
+                    <li>C#</li>
+                    <li>Build 64 bits</li>
+                </ul>
+
+                <div class="links-projeto">
+                    <a href="https://github.com/DefaultCode01/Dungeon-Hunter" target="_blank">
+                        README Completo
+                    </a>
+                    <a href="https://github.com/DefaultCode01/Dungeon-Hunter/blob/main/CHANGELOG.md" target="_blank">
+                        Changelog
+                    </a>
+                </div>
+            </section>
+
+            <!-- Projeto EcoTech -->
+            <section>
+                <div class="projeto2">
+                    <img src="Imagens/ecotech.png" alt="Projeto EcoTech - Sustentabilidade">
+
+                    <h3>EcoTech — Sustentabilidade e Tecnologia</h3>
+
+                    <p>
+                        Projeto educacional voltado à sustentabilidade, com foco em
+                        conscientização ambiental e uso responsável da tecnologia.
+                        Desenvolvido e publicado utilizando Google Sites.
+                    </p>
+
+                    <ul>
+                        <li><strong>Plataforma:</strong> Google Sites</li>
+                        <li><strong>Tema:</strong> Sustentabilidade</li>
+                        <li><strong>Tipo:</strong> Projeto educacional</li>
+                    </ul>
+
+                    <div class="links-projeto">
+                        <a href="https://sites.google.com/view/projeto-ecotech/p%C3%A1gina-inicial" target="_blank" rel="noopener noreferrer">
+                            Acessar o Projeto
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- Sistema de Hospedagem em C# (.NET) -->
+<section>
+    <div class="projeto3">
+        <img src="Imagens/dio.jpg" alt="Sistema de Hospedagem em C#">
+        
+        <h3>Sistema de Hospedagem (.NET)</h3>
+
+        <p>
+            Sistema de hotel desenvolvido em C# e .NET, focado em Programação Orientada a Objetos.
+            Permite cadastro de hóspedes, gerenciamento de suítes, regras de reservas e cálculo de valores com desconto.
+        </p>
+
+        <ul>
+            <li><strong>Tecnologia:</strong> C# / .NET</li>
+            <li><strong>Foco:</strong> POO (Classes, Encapsulamento, Métodos)</li>
+            <li><strong>Status:</strong> Estudo / Projeto de aprendizado</li>
+        </ul>
+
+        <div class="links-projeto">
+            <a href="https://github.com/DefaultCode01/trilha-net-explorando-desafio" target="_blank">
+                Código no GitHub
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Desafio POO – Sistema de Smartphones -->
+    <section>
+        <div class="projeto3">
+            <img src="Imagens/dio.jpg" alt="Sistema de Smartphones em C#">
+
+            <h3>Desafio POO – Sistema de Smartphones</h3>
+
             <p>
-                Entre em contato comigo pelo LinkedIn ou GitHub.
+                Projeto de console em C# aplicando conceitos de Programação Orientada a Objetos.
+                Modela o funcionamento de smartphones de diferentes marcas, utilizando abstração, herança e polimorfismo.
             </p>
-        </section>
 
-    </main>
-</div>
+            <ul>
+                <li><strong>Tecnologia:</strong> C# / .NET</li>
+                <li><strong>Foco:</strong> POO (Abstração, Herança, Polimorfismo, Classes Abstratas)</li>
+                <li><strong>Status:</strong> Estudo / Projeto de aprendizado</li>
+            </ul>
 
+            <div class="links-projeto">
+                <a href="https://github.com/DefaultCode01/trilha-net-explorando-desafio" target="_blank">
+                    Código no GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Contribuição Open Source -->
+    <section>
+        <div class="projeto3">
+            <img src="Imagens/dio.jpg" alt="Contribuição Open Source no GitHub">
+
+            <h3>Contribuição Open Source – GitHub</h3>
+
+            <p>
+                Primeira contribuição em um projeto Open Source no GitHub (dio-lab-open-source),
+                aplicando versionamento de código com Git e GitHub, usando C# e .NET Framework.
+            </p>
+
+            <ul>
+                <li><strong>Período:</strong> Set 2024 – Out 2024</li>
+                <li><strong>Foco:</strong> Versionamento, boas práticas de colaboração</li>
+                <li><strong>Tecnologias:</strong> C#, .NET Framework, Git, Node.js, Markdown</li>
+            </ul>
+
+            <h4>Exemplo de contribuição (código):</h4>
+            <pre><code>
+    // Método de validação simples adicionado durante o lab
+    public bool ValidarEntrada(string input)
+    {
+        if (string.IsNullOrEmpty(input))
+            return false;
+        return input.Length >= 3;
+    }
+            </code></pre>
+
+            <div class="links-projeto">
+                <a href="https://github.com/digitalinnovationone/dio-lab-open-source" target="_blank">
+                    Repositório do Projeto
+                </a>
+                <a href="https://github.com/DefaultCode01/dio-lab-open-source" target="_blank">
+                    Meu Fork / Contribuição
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- SEÇÃO SQL -->
+<section>
+    <h2>🗄️ Principais Comandos SQL</h2>
+    <div class="tabela-container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Comando</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CREATE</td>
+                    <td>Cria tabela ou banco de dados</td>
+                    <td><code>CREATE TABLE usuarios(id INT, nome VARCHAR(50));</code></td>
+                </tr>
+                <tr>
+                    <td>INSERT</td>
+                    <td>Insere dados na tabela</td>
+                    <td><code>INSERT INTO usuarios VALUES(1, 'Matheus');</code></td>
+                </tr>
+                <tr>
+                    <td>SELECT</td>
+                    <td>Consulta dados da tabela</td>
+                    <td><code>SELECT * FROM usuarios;</code></td>
+                </tr>
+                <tr>
+                    <td>UPDATE</td>
+                    <td>Atualiza dados existentes</td>
+                    <td><code>UPDATE usuarios SET nome='Lucas' WHERE id=1;</code></td>
+                </tr>
+                <tr>
+                    <td>DELETE</td>
+                    <td>Remove dados da tabela</td>
+                    <td><code>DELETE FROM usuarios WHERE id=1;</code></td>
+                </tr>
+                <tr>
+                    <td>JOIN</td>
+                    <td>Relaciona tabelas</td>
+                    <td><code>SELECT * FROM pedidos JOIN usuarios ON pedidos.id_usuario=usuarios.id;</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- SEÇÃO HTML/CSS -->
+<section>
+    <h2>🌐 Principais Tags HTML e CSS</h2>
+    <div class="tabela-container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Elemento/Propriedade</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Contêiner genérico</td>
+                    <td><code>&lt;div class="box"&gt;&lt;/div&gt;</code></td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Parágrafo de texto</td>
+                    <td><code>&lt;p&gt;Olá mundo&lt;/p&gt;</code></td>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>Define cor do texto</td>
+                    <td><code>color: #fff;</code></td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Define cor de fundo</td>
+                    <td><code>background-color: #121212;</code></td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>Define layout de elemento</td>
+                    <td><code>display: flex;</code></td>
+                </tr>
+                <tr>
+                    <td>flex, gap, padding</td>
+                    <td>Estilizações usadas no portfólio</td>
+                    <td><code>display: flex; gap: 15px; padding: 20px;</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- SEÇÃO C# -->
+<section>
+    <h2>💻 Principais Funções e Conceitos C#</h2>
+    <div class="tabela-container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Função / Conceito</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Método</td>
+                    <td>Função dentro de uma classe</td>
+                    <td><code>public int Soma(int a, int b) { return a+b; }</code></td>
+                </tr>
+                <tr>
+                    <td>Operador ternário</td>
+                    <td>Condicional simplificada</td>
+                    <td><code>var resultado = idade &gt;=18 ? "Adulto" : "Menor";</code></td>
+                </tr>
+                <tr>
+                    <td>Operadores relacionais</td>
+                    <td>Comparações entre valores</td>
+                    <td><code>==, !=, &lt;, &gt;, &lt;=, &gt;=</code></td>
+                </tr>
+                <tr>
+                    <td>Classe e Objeto</td>
+                    <td>Estrutura de POO</td>
+                    <td><code>class Pessoa { public string Nome; }</code></td>
+                </tr>
+                <tr>
+                    <td>if / else</td>
+                    <td>Condicional</td>
+                    <td><code>if(x&gt;0) { ... } else { ... }</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Espaço interativo para testar C# -->
+    <h3>🖥️ Teste C# Online</h3>
+    <iframe src="https://dotnetfiddle.net/embed/abcdef" width="100%" height="500px"></iframe>
+
+</section>
+
+            <!-- Certificados -->
+            <section>
+                <h2>📜 Meus Certificados</h2>
+                <div class="certificados">
+
+                    <a
+                        href="Imagens/Certificados/Certificado_digital_2951655_Assistente_Administrativo.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado Assistente Administrativo.jpeg"
+                            alt="Certificado de Assistente Administrativo"
+                        >
+                        <p>Certificado de Assistente Administrativo</p>
+                    </a>
+
+
+                    <a
+                        href="Imagens/Certificados/Certificado_de_Lógica_de_Programação_começando_a_desenvolver_seus_primeiros_programas-Certificado_digital_1710889.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado_de_Logica.jpeg"
+                            alt="Certificado de Lógica de Programação"
+                        >
+                        <p>Lógica de Programação</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/CertificadoDeConclusao_Python Formacao Basica.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado Python.jpeg"
+                            alt="Certificado de Python Formacao Basica"
+                        >
+                        <p>Certificado de Python Formacao Basica</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/CertificadoDeConclusao_C Formacao Basica.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado_C.jpeg"
+                            alt="Certificado de C# formação basica"
+                        >
+                        <p>Certificado de C# formação basica</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/Computadores-e-Internet-20-HORAS-Certificado-Curso-em-Video.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado Computadores e Internet.jpeg"
+                            alt="Rede de computadores e Internet"
+                        >
+                        <p>Rede de computadores e Internet</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/Certificado de Introdução ao desenvolvimento Full Stack com a XP.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado Introdução ao Full Stack.jpeg"
+                            alt="Certificado de Introdução ao desenvolvimento Full Stack com a XP INC"
+                        >
+                        <p>Certificado de Introdução ao desenvolvimento Full Stack com a XP INC</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/Certificado de Introdução as IDEs e Configuração de Ambiente .NET.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado de Introdução ao .NET.png"
+                            alt="Introdução as IDEs e Configuração de Ambiente .NET"
+                        >
+                        <p>Introdução as IDEs e Configuração de Ambiente .NET</p>
+                    </a>
+
+
+                    <a
+                        href="Imagens/Certificados/Certificado de Introdução ao .net.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado de Introducao ao .net.png"
+                            alt="Certificado de Introducao ao .Net"
+                        >
+                        <p>Certificado de Introducao ao .Net</p>
+                    </a>
+
+
+                      <a
+                        href="Imagens/Certificados/Certificado de Versionamento de Código com Git e GitHub.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Certificado de Versionamento.jpeg"
+                            alt="Certificado de Versionamento de Código com Git e GitHub "
+                        >
+                        <p>Certificado de Versionamento de Código com Git e GitHub </p>
+                    </a>
+
+
+
+
+                    <a
+                        href="Imagens/Certificados/propriedades metodos e contrutores com c.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/propriedades metodos e contrutores com c.jpeg"
+                            alt="Certificado de Introducao a Métodos e Contrutores com C#"
+                        >
+                        <p>Certificado de Introdução a Propriedades Métodos e Contrutores com C#</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/sintaxe e tipos de dados em c.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Sintaxe e tipos de dados com c.jpeg"
+                            alt="Certificado de Sintaxe e tipos de dados com C#"
+                        >
+                        <p>Certificado de Sintaxe e tipos de dados com C#</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/heranca e polismorfismo.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/heranca e polismorfismo.jpeg"
+                            alt="Certificado de Herança e Polismorfismo em C# "
+                        >
+                        <p>Certificado de Herança e Polismorfismo em C#</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/introducao a  abstracao e encapsulamento com c.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/introducao a  abstracao e encapsulamento com c.jpeg"
+                            alt="Certificado de introducao a Abstração e Encapsulamento com C#"
+                        >
+                        <p>Certificado de introducao a Abstração e Encapsulamento com C#</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/introducao a banco de dados.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/introducao a banco de dados.jpeg"
+                            alt="Certificado de Introducao a banco de dados"
+                        >
+                        <p>Certificado de Introducao a banco de dados</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/introducao ao mongo db e banco de dados sql.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/introducao ao mongo db e banco de dados sql.jpeg"
+                            alt="Certificado de "
+                        >
+                        <p>Certificado de Introducao ao mongo db e banco de dados sql</p>
+                    </a>
+
+
+                    <a
+                        href="Imagens/Certificados/sql server - manipulando dados.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/sql server - manipulando dados.jpeg"
+                            alt="Certificado de Sql server - manipulando dados"
+                        >
+                        <p>Certificado de Sql server - manipulando dados</p>
+                    </a>
+
+                    <a
+                        href="Imagens/Certificados/introducao a apis com c.pdf"
+                        target="_blank"
+                        class="certificado"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="CertificadosIMG/Introducao a Apis com C.jpeg"
+                            alt="Certificado de Introdução a Apis com C#"
+                        >
+                        <p>Certificado de Introdução a Apis com C#</p>
+                    </a>
+                </div>
+            </section>
+
+               
+                </div>
+            </section>
+
+        </main>
+    </div>
 </body>
 </html>
+
