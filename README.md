@@ -1,6 +1,6 @@
 # Portfólio de Matheus Da Silva Gomes
 
-Bem-vindo ao meu portfólio online! Aqui você encontrará meus projetos de games 2D, estudos em C#/.NET, contribuições Open Source e certificados, demonstrando meu desenvolvimento como Desenvolvedor Júnior de Games.
+Bem-vindo ao meu portfólio online! Aqui você encontrará meus projetos de games 2D, estudos em C#/.NET, contribuições Open Source e certificados, demonstrando meu desenvolvimento como Desenvolvedor Júnior.
 
 ---
 
